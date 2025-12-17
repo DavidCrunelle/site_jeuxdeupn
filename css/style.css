@@ -1,0 +1,128 @@
+/* Reset léger */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & navigation */
+header {
+    background: linear-gradient(90deg, #1e3d59, #2f5f7c);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
+
+/* Contenu principal */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Titres */
+h1 {
+    text-align: center;
+    color: #1e3d59;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2f5f7c;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Listes (programme) */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 25px auto;
+    display: block;
+}
+
+/* Formulaire */
+form {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Bouton */
+input[type="submit"] {
+    background-color: #1e3d59;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #163046;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+}
